@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -95,14 +96,14 @@ header{
     padding: 0 40px;
 }
 .shape{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .banner-img img{
     width: 100%;
     padding: 0 30px;
 }
 .banner-text h1{
-    font-size: 60px;
+    font-size: 68px;
     color:#ffff;
     font-weight: 800;
 }
@@ -117,6 +118,58 @@ header{
 }
 .banner-btn a > .btn-color{
     background-color: #E6533C;
+}
+.banner-img{
+    position: relative;
+}
+.img-btn1{
+    height: auto;
+    width: 180px;
+    padding: 15px;
+    background-color: rgba(70, 69, 69, 0.726);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: -50px;
+    bottom: 100px;
+}
+.img-btn-icon{
+    height: 35px;
+    width: 35px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+.img-btn-text h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    margin: 5px 0;
+}
+.img-btn1 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 14px;
+}
+.img-btn2{
+    width: 170px;
+    height: auto;
+    padding: 12px 20px;
+    background-color:rgba(70, 69, 69, 0.726);
+    border-radius: 10px;
+    position: absolute;
+    right: -20px;
+    top: 130px;
+}
+.img-btn2 h4{
+    font-size: 32px;
+    font-weight:900;
+    color: #fff;
+    margin: 5px 0;
+}
+.img-btn2 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 13px;
 }
 
 .main{
@@ -438,17 +491,17 @@ select{
 }
 /* Footer */
 .footer{
-    background-color:rgba(30, 25, 25, 0.753);
-
+    background-color:rgba(10, 8, 8, 0.918);
 }
 .footer-content{
     width: 90%;
     margin: 0 auto;
 }
-.footer-text-content{
-    padding: 30px 0;
+.footer-text{
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .footer-text1{
     width: 35%;
@@ -480,6 +533,6 @@ select{
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
