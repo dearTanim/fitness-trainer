@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.primary-color{
+    background-color: #ffff;
+}
+.second-color{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.button{
+    padding: 12px 35px;
+    border:none;
+    border-radius: 20px;
+    color: #ffff;
+    font-weight:600;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-color{
+    background-color: #E6533C;
+}
+.primary-title{
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.description{
+    font-size: 14px;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Header */
+.container{}
+header{
+    background-color: rgba(17, 17, 17, 1);
+    color: white;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 80px;
+}
+.nav-logo a{
+    font-size: 35px;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+}
+.nav-menu{}
+.nav-menu > ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10PX;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-menu ul li{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.nav-menu ul li a{
+    font-size: 16px;
+    color: #ffff;
+}
+
+/* Banner */
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button2{
+    border: 1px solid #fff;
+}
+.banner-text{
+    width:50%;
+    padding: 0 40px;
+}
+.shape{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner-img img{
+    width: 100%;
+    padding: 0 30px;
+}
+.banner-text h1{
+    font-size: 60px;
+    color:#ffff;
+    font-weight: 800;
+}
+.banner-text p{
+    font-size: 16px;
+    margin: 40px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+.banner-btn a > .btn-color{
+    background-color: #E6533C;
+}
+
+.main{
+    background-color: #000;
+}
+/* Habits */
+.habits{
+    text-align: center;
+    padding: 80px 0;
+}
+.habits-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.habits-text {
+   width: 55%;
+   margin: 0 auto;
+}
+.habits-text p{
+    margin: 25px 0;
+}
+.habits-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.habits-item{
+    padding: 0 20px;
+    margin: 30px 0;
+}
+.habits-item img{
+    border-radius: 50%;
+    margin: 18px 0;
+}
+.habits-item h4{
+    font-size: 20px;
+    color: #ffff;
+}
+.habits-footer{
+    margin: 90px 0;
+    text-align: left;
+    padding: 40px 60px;
+    background-color: rgb(34,34,34);
+    border-radius: 15px;
+}
+.habits-footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:150px;
+}
+.habits-footer-text{
+    height: 290px;
+    width: 45%;
+}
+.habits-footer-img{
+    width: 45%;
+    overflow: hidden;
+}
+.habits-footer-img img{
+    border-radius: 15px;
+    height: 345px;
+    object-fit:none;
+    object-position: 68% 28%;
+
+}
+.habits-footer-text > p{
+    margin-bottom: 30px;
+}
+.habits-footer-text button{
+    background-color:#E6533C;
+}
+
+/* Trainning */
+.trainning{
+    padding: 50px 0;
+}
+.trainning-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.trainning-text{
+    width: 55%;
+}
+.trainning-img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 403px;
+    overflow: hidden;
+    margin: 50px 0;
+    color: #ffff;
+}
+.trainning1{
+    background-image: url(../images/exercise1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 200px;
+    background-color: rgba(6, 255, 210, 0.5);
+    color: #000;
+}
+.trainning2{
+    background-image: url(../images/exercise2.png);
+    background-position: center;
+    background-size: cover;
+    width: 480px;
+    height: 200px;
+}
+.trainning3{
+    background-image: url(../images/exercise3.png);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 203px;
+}
+.trainning4{
+    background-image: url(../images/exercise4.png);
+    background-position: center;
+    background-size: cover;
+    width: 430px;
+    height: 203px;
+}
+.trainning5{
+    background-image: url(../images/exercise5.jpg
+    );
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 203px;
+}
+.trainning6{
+    background-image: url(../images/exercise6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+.trainning3 p, .trainning5 p, .trainning6 p{
+    position: relative;
+    left: 20px;
+    top: 140px;
+    width: 70%;
+}
+.trainning1 h4{
+    position: relative;
+    left: 20px;
+    top: 160px;
+}
+.trainning2 p{
+    position: relative;
+    left: 20px;
+    top: 20px; 
+}
+.trainning4 p{
+    position: relative;
+    left: 20px;
+    top: 150px;
+    width: 50%;
+}
+
+/* Calculator */
+.bmi-calculator{
+    margin: 0 auto;
+    padding: 70px 0;
+    color: #ffff;
+}
+.bmi-calculator-text{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.bmi-calculator-text p{
+    width: 60%;
+}
+.calculator{
+    background-color: rgba(34, 34, 34, 1);
+}
+.calculator-items{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.calculator-chart{
+    width: 40%;
+}
+.calculator-chart h3, .calculate h3{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    padding: 10px 40px 10px 15px;
+    text-align: left;
+}
+td{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.calculate{
+    width: 55%;
+}
+.calculate-text p{
+    margin-bottom: 20px;
+}
+.calculate button{
+    background-color: #E6533C;
+    border: none;
+    margin: 10px 0;
+}
+.calculate-form{
+    width: 100%;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input input{
+    width: 100%;
+    padding: 13px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+.input input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.select input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+select{
+    width: 100%;
+    padding: 13px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+/* Our-Team */
+.our-team{
+    width: 90%;
+    margin: 0 auto;
+}
+.team{
+    padding-bottom: 80px;
+}
+.team-text{
+    text-align: center;
+    width: 55%;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.team-trainers{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+.trainers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+.trainer{
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+}
+.trainer h4{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 800;
+}
+.trainer p{
+    color:rgba(255, 255, 255, 0.5);
+}
+.trainer-text{
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+.trainer1{
+    background-image: url(../images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer2{
+    background-image: url(../images/trainer2.png);
+    background-position:center;
+    background-size: cover;
+}
+.trainer3{
+    background-image: url(../images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer4{
+    background-image: url(../images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer5{
+    background-image: url(../images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer6{
+    background-image: url(../images/trainer6.png);
+    background-position:center;
+    background-size: cover;
+}
+/* Footer */
+.footer{
+    background-color:rgba(30, 25, 25, 0.753);
+
+}
+.footer-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-text-content{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text1{
+    width: 35%;
+}
+.footer-text1 h2{
+    font-size: 58px;
+    font-style: italic;
+    color: #E6533C;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.footer-text1 p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-text2 h4{
+    font-size: 28px;
+    color: #fff;
+    margin: 20px 0;
+}
+.footer-text2 ul li{
+    font-size: 17px;
+    margin: 10px 0;
+}
+.footer-text2 ul li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+.copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    padding: 20px 0;
+}
+
