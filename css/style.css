@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -93,17 +93,19 @@ header{
 }
 .banner-text{
     width:50%;
-    padding: 0 40px;
+    padding: 0 50px;
 }
 .shape{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Miama', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
 }
 .banner-img img{
     width: 100%;
     padding: 0 30px;
 }
 .banner-text h1{
-    font-size: 68px;
+    font-size: 70px;
     color:#ffff;
     font-weight: 800;
 }
@@ -253,82 +255,140 @@ header{
     margin: 0 auto;
 }
 .trainning-text{
-    width: 55%;
+    width: 45%;
 }
 .trainning-img{
     display: flex;
     flex-wrap: wrap;
-    height: 403px;
+    width: 100%;
     overflow: hidden;
-    margin: 50px 0;
+    margin: 50px auto;
     color: #ffff;
 }
+
 .trainning1{
-    background-image: url(../images/exercise1.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 280px;
-    height: 200px;
-    background-color: rgba(6, 255, 210, 0.5);
-    color: #000;
-}
-.trainning2{
-    background-image: url(../images/exercise2.png);
-    background-position: center;
-    background-size: cover;
-    width: 480px;
-    height: 200px;
-}
-.trainning3{
-    background-image: url(../images/exercise3.png);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 203px;
-}
-.trainning4{
-    background-image: url(../images/exercise4.png);
-    background-position: center;
-    background-size: cover;
-    width: 430px;
-    height: 203px;
-}
-.trainning5{
-    background-image: url(../images/exercise5.jpg
-    );
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 203px;
-}
-.trainning6{
-    background-image: url(../images/exercise6.jpg);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 200px;
-}
-.trainning3 p, .trainning5 p, .trainning6 p{
     position: relative;
-    left: 20px;
-    top: 140px;
-    width: 70%;
+    color: #fff;
+}
+.trainning1 img{
+    width: 280px;
+    height: 230px;
+}
+.trainning1 span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(6, 255, 210, 0.5);
 }
 .trainning1 h4{
-    position: relative;
+    position: absolute;
+    bottom: 20px ;
     left: 20px;
-    top: 160px;
+    color: #000;
+}
+
+.trainning2{
+    position: relative;
+    color: #fff;
+}
+.trainning2 img{
+    width: 520px;
+    height: 230px;
+}
+.trainning2 span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.3);
 }
 .trainning2 p{
-    position: relative;
+    position: absolute;
+    top: 20px ;
     left: 20px;
-    top: 20px; 
+}
+
+.trainning3{
+    position: relative;
+    color: #fff;
+}
+.trainning3 img{
+    width: 380px;
+    height: 230px;
+}
+.trainning3 span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.trainning3 p{
+    position: absolute;
+    bottom: 20px ;
+    left: 20px;
+    width: 45%;
+}
+
+.trainning4{
+    position: relative;
+    color: #fff;
+}
+.trainning4 img{
+    width: 450px;
+    height: 230px;
+}
+.trainning4 span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 .trainning4 p{
+    position: absolute;
+    top: 20px ;
+    right: 10px;
+    width: 45%;
+}
+
+.trainning5{
     position: relative;
+    color: #fff;
+}
+.trainning5 img{
+    width: 310px;
+    height: 230px;
+}
+.trainning5 span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(66, 255, 0, 0.3);
+}
+.trainning5 p{
+    position: absolute;
+    bottom: 20px ;
     left: 20px;
-    top: 150px;
-    width: 50%;
+    width: 65%;
+}
+
+.trainning6{
+    position: relative;
+    color: #fff;
+}
+.trainning6 img{
+    width: 420px;
+    height: 230px;
+}
+.trainning6 span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(0, 71, 255, 0.3);
+}
+.trainning6 p{
+    position: absolute;
+    bottom: 20px ;
+    left: 20px;
+    width: 45%;
 }
 
 /* Calculator */
@@ -442,7 +502,7 @@ select{
     gap: 18px;
 }
 .trainer{
-    height: 300px;
+    height: 350px;
     border-radius: 15px;
     position: relative;
 }
@@ -461,12 +521,12 @@ select{
 }
 .trainer1{
     background-image: url(../images/trainer1.png);
-    background-position: center;
+    background-position: cover;
     background-size: cover;
 }
 .trainer2{
     background-image: url(../images/trainer2.png);
-    background-position:center;
+    background-position:cover;
     background-size: cover;
 }
 .trainer3{
