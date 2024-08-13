@@ -168,3 +168,223 @@
     }
 
 }
+
+@media screen and (max-width:576px){
+
+    .primary-title{
+        font-size: 35px;
+        margin: 20px 0;
+    }
+    .description{
+        font-size: 13px;
+    }
+    .break{
+        display: none;
+    }
+    .button{
+        padding: 10px 15px;
+        border-radius: 20px;
+        font-weight:400;
+        font-size: 13px;
+    }
+    /* Header */
+    .nav-menu{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .header-nav{
+        padding:50px 30px;
+    }
+    .banner{
+        display: block;
+        gap: 50px;
+    }
+    .banner-text{
+        width:100%;
+        padding: 0 30px;
+        margin-bottom: 30px;
+    }
+    .banner-text h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .banner-text p{
+        width: 90%;
+        font-size: 14px;
+        margin: 30px 0;
+    }
+    .img-btn1{
+        width: 140px;
+        padding: 10px 8px;
+        left: 40px;
+        bottom: 210px;
+    }
+    .img-btn-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .img-btn-text h4{
+        font-size: 16px;
+    }
+    .img-btn1 p{
+        font-size: 11px;
+    }
+    .img-btn2{
+        width: 140px;
+        padding: 10px 15px;
+        right: 10px;
+        top: 50px;
+    }
+    .img-btn2 h4{
+        font-size: 25px;
+        font-weight:800;
+    }
+    .img-btn2 p{
+        font-size: 11px;
+    }
+    /* Habits */
+    .habits{
+        padding: 20px 0;
+    }
+    .habits-text {
+        width: 100%;
+        margin: 0 auto;
+     }
+    .habits-text p{
+        width: 80%;
+        margin: 0 auto;
+     }
+     .habits-items{
+        display: block;
+    }
+    .habits-item{
+        padding: 0 20px;
+        width: 65%;
+        margin: 30px auto;
+    }
+    .habits-footer{
+        margin: 40px 0;
+        padding: 20px 30px;
+    }
+    .habits-footer-items{
+        display: block;
+    }
+    .habits-footer-text{
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .habits-footer-text .button{
+        width: 50%;
+        padding: 12px 0;
+        font-size: 15px;
+    }
+    .habits-footer-img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .habits-footer-img img{
+        height: 225px;
+        object-fit:cover;
+    }
+    /* Trainning */
+    .trainning{
+        padding: 20px 0;
+    }
+    .trainning-text{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .trainning-img{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        margin: 30px auto;
+    }
+    .trainning1, .trainning2, .trainning3,
+    .trainning4, .trainning5, .trainning6{
+        width: 100%;
+        height: 100%;
+    }
+    /* Calculator */
+    .bmi-calculator{
+        padding: 30px 0;
+    }
+    .bmi-calculator-text{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    .bmi-calculator-text p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .calculator-items{
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: block;
+    }
+    .calculator-chart{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .calculator-chart h3, .calculate h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .calculate{
+        width: 100%;
+    }
+    .calculate .button{
+        padding:13px 50px;
+    }
+    /* Our-Team */
+    .our-team{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .team{
+        padding-bottom: 20px;
+    }
+    .team-text{
+        width: 90%;
+        margin:0 auto;
+        margin-bottom: 30px;
+    }
+    .trainers{
+        display: block;
+        gap: 10px;
+    }
+    .trainer{
+        height:350px;
+        margin-bottom: 30px;
+    }
+    /* Footer */
+    .footer-text{
+        padding: 40px 0;
+        display: block;
+    }
+    .footer-text1{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .footer-text1 h2{
+        font-size: 45px;
+        font-weight: 800;
+    }
+    .footer-text2 h4{
+        font-size: 25px;
+        color: #fff;
+    }
+    .footer-text2 ul li{
+        font-size: 15px;
+    }
+    .footer-text-2{
+        margin-bottom: 30px;
+    }
+
+}        
