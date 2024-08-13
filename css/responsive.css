@@ -1,0 +1,170 @@
+@media screen and (min-width:576px) and (max-width:992px){
+    /* Header */
+    .header-nav{
+        padding:50px 30px;
+    }
+    .nav-menu > ul{
+        justify-content: center;
+    }
+    .nav-menu ul li{
+        padding: 8px 10px;
+        border-radius: 10px;
+    }
+    .nav-menu ul li a{
+        font-size: 15px;
+    }
+    .button{
+        padding: 15px 25px;
+        border-radius: 20px;
+        font-weight:600;
+        font-size: 15px;
+    }
+    /* Banner */
+    .banner{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+    .banner-text{
+        width:100%;
+        padding: 0 50px;
+    }
+    .banner-text p{
+        width: 70%;
+    }
+    .img-btn1{
+        left: 20px;
+        bottom: 140px;
+    }
+    .img-btn2{
+        right: 10px;
+        top: 50px;
+    }
+    /* Habits */
+    .habits{
+        padding: 40px 0;
+    }
+    .habits-text {
+        width: 100%;
+        margin-bottom: 30px;
+     }
+     .habits-text p{
+       width: 60%;
+       margin: 0 auto;
+    }
+    .habits-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .habits-item{
+        width: 60%;
+        padding: 0 0px;
+        margin: 10px auto;
+        align-items: center;
+    }
+    .habits-footer-text{
+        height: auto;
+        width: 100%;
+    }
+    .habits-footer-img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .habits-footer-items{
+        gap:20px;
+    }
+    .habits-footer-img img{
+        border-radius: 15px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .habits-footer{
+        margin: 50px 0;
+    }
+    /* Trainning */
+    .trainning{
+        padding: 30px 0;
+    }
+    .trainning-text{
+        width: 100%;
+    }
+    .trainning-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+    .trainning1{
+        width: 288px;
+        height: 200px;
+    }
+    .trainning2{
+        width: 350px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .trainning3{
+        width: 280px;
+        height: 200px;
+    }
+    .trainning4{
+        width: 380px;
+        height: 200px;
+    }
+    .trainning5{
+        width: 280px;
+        height: 200px;
+    }
+    .trainning6{
+        width: 100%;
+        height: 200px;
+    }
+    /* BMI Calculator */
+    .bmi-calculator{
+        margin: 0 auto;
+        padding: 40px 0;
+        color: #ffff;
+    }
+    .bmi-calculator-text{
+        width: 80%;
+        padding-bottom: 60px;
+    }
+    .bmi-calculator-text p{
+        width: 100%;
+    }
+    .calculator-items{
+        padding: 50px 0;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .calculator-chart{
+        width: 100%;
+    }
+    .calculate{
+        width: 100%;
+    }
+    /* Our Team */
+    .team-text{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .trainers{
+        gap: 12px;
+    }
+    /* Footer */
+    .footer-text{
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-text1{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .footer-text2{
+        width: 50%;
+    }
+
+}
